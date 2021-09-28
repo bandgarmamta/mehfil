@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+
+.App {
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+
+.input {
+  padding: 1rem 3rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+:root {
+  --primary-color: #f87171;
+  --secondary-color: #fecaca;
+}
+.heading {
+  color: var(--primary-color);
+  font-size: 3.5rem;
+}
+
+.heading1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.btn-music {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+}
+
+.list-music {
+  font-family: "Merriweather", serif;
+  list-style: none;
+  border: 2px solid var(--secondary-color);
+  width: 50%;
+  margin: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5em;
+}
+
+.list-music h4 {
+  margin-block-start: 0.5em;
+  margin-block-end: -0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
